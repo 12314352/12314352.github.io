@@ -13,4 +13,7 @@ app.get('/write', function(req, res){
     res.sendFile(__dirname + '/write.html')
 });
 
+app.get('/babo', function(req, res){
+    res.sendFile(__dirname + '/babo.html')
+});
 
